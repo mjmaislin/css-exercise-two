@@ -1,13 +1,46 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#ffffff; } /* unvisited */
+a:visited { color:#ffffff; } /* visited */
+a:hover { color:#FFA500; } /* mouse over */
+a:active { color:#FFA500; } /* selected */
 
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  line-height: 2.5;
+  font-size: 2em;
+}
+
+h3 {
+  line-height: 1.1;
+  font-size: 1.3em;
+}
+
+figcaption {
+  font-size: .85em;
+}
+
+.author {
+  font-size: .85em;
+  line-height: 4;
+}
+
+.story-text {
+  line-height: 1.5;
 }
 
 .logo {
